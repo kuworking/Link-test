@@ -5,8 +5,8 @@ import styled from "@emotion/styled"
 export default function Home() {
   return (
     <Main>
-      <Link to="/">Link to main</Link>
-      <a href="/">a to main</a>
+      <Link to="/">Going to index with {`<LINK>`} that DOES NOT work</Link>
+      <a href="/">Going to index with {`<A>`} that DOES work</a>
     </Main>
   )
 }

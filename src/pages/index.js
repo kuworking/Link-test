@@ -15,8 +15,8 @@ export default function Home() {
 
   return (
     <Main>
-      <Link to="/index2">Link to index2</Link>
-      <a href="/index2">a to index2</a>
+      <Link to="/index2">Going to index2 with {`<LINK>`} that DOES NOT work</Link>
+      <a href="/index2">Going to index2 with {`<A>`} that DOES work</a>
       <Div>
         <CssMasonry {...masonryProps}>
           {el => (

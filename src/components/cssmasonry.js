@@ -69,7 +69,7 @@ const Element = ({ image, reSetElements, children }) => {
 
   useEffect(() => {
     if (height !== 0 && width !== 0) reSetElements(image, height, width)
-  }, [height, width])
+  }, [height, width, image, reSetElements])
 
   return (
     <div className="cssmasonry_masonry_element" {...bind}>
